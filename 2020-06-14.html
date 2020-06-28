@@ -1,0 +1,2030 @@
+<doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Web 3.0 Weekly</title>
+    <link rel="canonical" href="https://indizr.com">
+    <meta name="description" content="Web 3.0 Weekly">
+    <meta name="author" content="Peter A. McKay">
+    <meta name="keywords" content="blockchain, web3, decentralization, crypto, innovation, privacy">
+
+    <!-- Additional Meta Tags
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Schema.org markup -->
+    <meta itemprop="name" content="Web 3.0 Weekly">
+    <meta itemprop="description" content="A newsletter aboutall things decentralization, published every Sunday.">
+    <meta itemprop="image" content="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+    <!-- Twitter Card data
+    ––––––––––––––––––––––––––––––––––––––––––––––––––  -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://indizr.com">
+    <meta name="twitter:title" content="Web 3.0 Weekly">
+    <meta name="twitter:description" content="A newsletter about all things decentralization, published every Sunday.">
+    <meta name="twitter:creator" content="@itsindizr">
+    <meta name="twitter:image:src" content="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="../img/icon-100.png" rel="icon" type="image/x-icon" rel="icon" type="image/x-icon">
+
+    <!-- CSS/Fonts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <style type="text/css">
+      /* Some typeface mojo from Google fonts... */
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhmIqOjjg.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhvIqOjjg.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhnIqOjjg.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhoIqOjjg.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhkIqOjjg.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhlIqOjjg.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* End Google Fonts code *//* Some typeface mojo from Google fonts... */
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhmIqOjjg.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhvIqOjjg.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhnIqOjjg.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhoIqOjjg.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhkIqOjjg.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhlIqOjjg.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* End Google Fonts code */
+      html {
+      }
+
+      body {
+        padding:5px;
+        background:#ededed;
+        font-size:20px;
+        line-height:1.5;
+        width:100%;
+        margin:0;
+        padding:0;
+        font-family:'Roboto','Helvetica','Arial',sans-serif;
+        font-weight:300;
+      }
+
+      ul,p,li,h1,h2,h3,h4,h5,h6 {
+        margin:0;
+        padding:0;
+      }
+
+      h1,h2,h3,h4,h5,h6 {
+        font-family:'Open Sans','Helvetica','Arial',sans-serif;
+        font-weight:600;
+        line-height:1.4;
+        margin-bottom:20px;
+      }
+
+      a,a:visited {
+        color:#FF9100;
+        text-decoration:none;
+        font-weight:500;
+      }
+
+      h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited {
+        color:black;
+        font-weight:600;
+      }
+
+      img {
+        width:auto;
+        max-width:100%;
+        height:auto;
+        margin-bottom:20px;
+      }
+
+      p,li {
+        font-size:18px;
+        margin-bottom:20px;
+      }
+
+      h1 {
+        font-size:38px;
+      }
+
+      h2 {
+        font-size:32px;
+      }
+
+      h3 {
+        font-size:28px;
+      }
+
+      h4 {
+        font-size:24px;
+      }
+
+      h5 {
+        font-size:22px;
+      }
+
+      h6 {
+        font-size:20px;
+      }
+
+      a:hover {
+        text-decoration:underline;
+      }
+
+      ul,ol,li {
+        list-style:square inside none;
+      }
+
+      #palette {
+        display:block;
+        width:auto;
+        max-width:600px;
+        padding:15px 25px;
+        margin:15px auto;
+        background:white;
+        border-radius:6px;
+      }/* Some typeface mojo from Google fonts... */
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Italic'),local(OpenSans-Italic),url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhmIqOjjg.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhvIqOjjg.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhnIqOjjg.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhoIqOjjg.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhkIqOjjg.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhlIqOjjg.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:italic;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold Italic'),local(OpenSans-SemiBoldItalic),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:400;
+        font-display:swap;
+        src:local('Open Sans Regular'),local(OpenSans-Regular),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Open Sans';
+        font-style:normal;
+        font-weight:600;
+        font-display:swap;
+        src:local('Open Sans SemiBold'),local(OpenSans-SemiBold),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light Italic'),local(Roboto-LightItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:italic;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium Italic'),local(Roboto-MediumItalic),url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:300;
+        font-display:swap;
+        src:local('Roboto Light'),local(Roboto-Light),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* cyrillic-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format("woff2");
+        unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+      }
+
+      /* cyrillic */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format("woff2");
+        unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+      }
+
+      /* greek-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format("woff2");
+        unicode-range:U+1F00-1FFF;
+      }
+
+      /* greek */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format("woff2");
+        unicode-range:U+0370-03FF;
+      }
+
+      /* vietnamese */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format("woff2");
+        unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+      }
+
+      /* latin-ext */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format("woff2");
+        unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+      }
+
+      /* latin */
+      @font-face {
+        font-family:'Roboto';
+        font-style:normal;
+        font-weight:500;
+        font-display:swap;
+        src:local('Roboto Medium'),local(Roboto-Medium),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+      }
+
+      /* End Google Fonts code */
+      html {
+      }
+
+      body {
+        padding:5px;
+        background:#ededed;
+        font-size:20px;
+        line-height:1.5;
+        width:100%;
+        margin:0;
+        font-family:'Roboto','Helvetica','Arial',sans-serif;
+        font-weight:300;
+      }
+
+      ul,p,li,h1,h2,h3,h4,h5,h6 {
+        margin:0;
+        padding:0;
+      }
+
+      h1,h2,h3,h4,h5,h6 {
+        font-family:'Open Sans','Helvetica','Arial',sans-serif;
+        font-weight:600;
+        line-height:1.4;
+        margin-bottom:20px;
+      }
+
+      a,a:visited {
+        color:#FF9100;
+        text-decoration:none;
+        font-weight:500;
+      }
+
+      h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited {
+        color:black;
+        font-weight:600;
+      }
+
+      img {
+        width:auto;
+        max-width:100%;
+        height:auto;
+        margin-bottom:20px;
+      }
+
+      p,li {
+        font-size:18px;
+        margin-bottom:20px;
+      }
+
+      p strong, li strong {font-weight: 500}
+
+      h1 {
+        font-size:38px;
+      }
+
+      h2 {
+        font-size:32px;
+      }
+
+      h3 {
+        font-size:28px;
+      }
+
+      h4 {
+        font-size:24px;
+      }
+
+      h5 {
+        font-size:22px;
+      }
+
+      h6 {
+        font-size:20px;
+      }
+
+      a:hover {
+        text-decoration:underline;
+      }
+
+      ul,ol,li {
+        list-style:square inside none;
+      }
+
+      #palette {
+        display:block;
+        width:auto;
+        max-width:600px;
+        padding:15px 25px;
+        margin:5px auto;
+        background:white;
+        border-radius:6px;
+      }
+
+      /* Custom styles for Web 3.0 Weekly */
+      #flag {
+      	display: block;
+        text-align:center;
+        border: 2px solid #cecece;
+        border-radius: 6px;
+      }
+
+      #flag h1 {
+        margin-bottom:10px;
+      }
+
+      #flag h4 {
+        font-weight:normal;
+        margin-bottom: 10px
+      }
+
+      #flag img {
+        width:auto;
+        max-width:125px;
+		margin: 0;
+      }
+
+      #flag div {
+      	padding: 10px 0;
+        background: #575757;
+        margin-bottom: 10px;
+        }
+
+      #palette {}
+    </style>
+  </head>
+
+
+  <body>
+    <div id="palette">
+      <span id="flag">
+        <div><img src="https://indizr.com/img/logo/logo-white-250.png" alt="logo-black-250.png">
+        </div>
+        <h1>Web 3.0 Weekly</h1>
+        <h4>June 7-13, 2020</h4>
+      </span>
+
+      <br>
+
+      <p>Wow. A pretty busy week this time in terms of news flow. Here are the highlights:</p>
+
+      <ul>
+
+        <li>The The New York Times' <strong>Mike Isaac</strong> reports that <strong>Big Tech</strong> companies have been on a startup acquisition spree lately amid the onset of recession in the U.S. and elsewhere. The dealmaking suggests that <strong>Facebook</strong>, <strong>Apple</strong>, and other goliath-sized peers smell opportunity in the woes of smaller players and non-tech industries to consolidate their market power even further. <em>Link: <a href="https://tinyurl.com/yckx29c9">https://tinyurl.com/yckx29c9</a></em></li>
+
+        <li>About half of institutional investors consider digital assets to be worthy of holding in portfolios, according to a recent survey commissioned by <strong>Fidelity Investments</strong>. (Bloomberg)<em> Link: <a href="https://tinyurl.com/y47sgutv">https://tinyurl.com/y47sgutv</a></em></li>
+
+        <!--
+
+          <li><strong>Quick refresher #1:</strong> Apple and Google famously take a <strong>30 percent cut of in-app purchases</strong> for third-party applications distributed through their mobile stores.</li>
+
+          <li><strong>Quick refresher #2:</strong> Ever watch <strong>The Godfather</strong>? Remember that scene where <strong>Sollozzo</strong> meets with <strong>Don Corleone</strong> to get his help making sure local politicians look the other way regarding his new drug-trafficking operation? Guess what cut of revenue Sollozzo offers in return for this assistance? <em>Link: <a href="https://tinyurl.com/y8eostaf">https://tinyurl.com/y8eostaf</a></em></li>
+
+          <li>ETH addresses have passed 100MM, according to the Defiant.<em>Link: <a href=""></a></em></li>
+
+          <li>BitMain power struggle continues, has caused cessation of shipments for Shenzen.<em>Link: <a href=""></a></em></li>
+
+
+        -->
+
+        <li>The hashtag <strong>#DeleteCoinbase</strong> has been trending recently as portions of the blockchain community revolt against the popular exchange's deal to provide analytics to the U.S. government. <strong>Coinbase</strong> has said its government work will only involve use of public on-chain data, not private information from individual users of Coinbase's proprietary platform. But that's been little comfort to the most ardent crypto enthusiasts, many of whom lean toward libertarianism, anarchism, or other anti-authoritarian belief systems. <em>Link: <a href="https://tinyurl.com/ycazqkmk">https://tinyurl.com/ycazqkmk</a></em></li>
+
+        <li><strong>CoinDesk</strong> reports that <strong>ConsenSys</strong> is launching a new regulatory compliance product called <strong>Codefi</strong>, which will analyze transactions in the growing decentralized finance (DeFi) space. <em>Link: <a href="https://tinyurl.com/ya95yj2z">https://tinyurl.com/ya95yj2z</a></em></li>
+
+        <li><strong>Microsoft</strong> announced that its decentralized identity tool, called <strong>ION</strong>, is moving to the Bitcoin mainnet for a public beta test. (The Block) <em>Link: <a href="https://tinyurl.com/y85hqbef">https://tinyurl.com/y85hqbef</a></em></li>
+
+        <li>The <strong>Human Rights Foundation</strong> announced it has launched a fund to "support software developers who are making the Bitcoin network more private, decentralized, and resilient so that it can better serve as a financial tool for human rights activists, civil society organizations, and journalists around the world." <strong>The foundation is trying to raise $50,000 for the fund through a crowdfunding campaign.</strong> To donate, visit <a href="https://tinyurl.com/yayn7b84">https://tinyurl.com/yayn7b84</a></li>
+
+        <li>Software engineer <strong>@LareneLg</strong> has been tweeting a lot lately about web accessibility, including a heartbreaking story about her father's struggles to use sites that haven't taken steps to accommodate the visually impaired. Definitely worth a look, especially for the designers out there. <em>Link: <a href="https://tinyurl.com/y88cwnol">https://tinyurl.com/y88cwnol</a></em></li>
+
+        <li><strong>Of course, some people still use Twitter for certain less-serious purposes as well.</strong> For instance, British journalist <strong>@iancanwrite</strong>'s hilarious (and nervy) pranking of the CIA's official account last week. Be sure to click through the several screenshots he posted to get the full story. <em>Link: <a href="https://tinyurl.com/y7n2lefe">https://tinyurl.com/y7n2lefe</a></em></li>
+
+        <li><strong>Variety</strong> reports that <strong>Cameron and Tyler Winklevoss</strong> are teaming with <strong>Stampede Ventures</strong> on a feature film adaptation of the 2019 book “Bitcoin Billionaires.” Its author, <strong>Ben Mezrich</strong>, also wrote "The Social Network," which was  turned into a movie that portrayed the Winklevoss brothers' conflict with Facebook founder <strong>Mark Zuckerberg</strong>. <em>Link: <a href="https://tinyurl.com/ybbrwg9m">https://tinyurl.com/ybbrwg9m</a></em></li>
+
+  </ul>
+
+<p>That's it for now. Thanks for spending some time with Indizr today. <!-- Email copy here: Best wishes for a healthy and productive week ahead.--> If you'd like to get updates like this in your inbox every Sunday, you can sign up for our email list <a href="https://indizr.com/newsletter/">here</a>.</p>
+
+<p><em>— Peter A. McKay</em></p>
+
+<p><em>P.S: If you're just beginning to learn about decentralization, please check out <a href="https://github.com/Indizr/web3newbies/blob/master/web3newbies.md">"Web 3.0 for Newbies,"</a> my curated collection of links to help newcomers get up to speed.</em> 😉</p>
+
+
+</div> <!-- End palette -->
+            <center>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF; border-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                            <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                                <tr>
+                                    <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                        This email was sent to <a href="mailto:*|EMAIL|*" target="_blank" style="color:#404040 !important;">*|EMAIL|*</a>
+                                        <br/>
+                                        <a href="*|ABOUT_LIST|*" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|UNSUB|*" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*" style="color:#404040 !important;">update subscription preferences</a>
+                                        <br/>
+                                        *|LIST:ADDRESSLINE|*
+                                        <br/>
+                                        <br/>
+                                        *|REWARDS|*
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type="text/css">
+                    @media only screen and (max-width: 480px){
+                        table#canspamBar td{font-size:14px !important;}
+                        table#canspamBar td a{display:block !important; margin-top:10px !important;}
+                    }
+                </style>
+            </center></body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+
+<head>
+
+   <meta charset="utf-8">
+
+   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+   <style type="text/css">
+   @font-face {
+     font-family: 'Hattori Hanzo';
+     src: url('https://indizr.com/static/css/fonts/hattori_hanzo/webfont.eot') format('eot');
+     src: url('https://indizr.com/static/css/fonts/hattori_hanzo/webfont.eot?iefix') format('eot'),
+        url('https://indizr.com/static/css/fonts/hattori_hanzo/webfont.woff') format('woff'),
+         url('https://indizr.com/static/css/fonts/hattori_hanzo/webfont.ttf') format('truetype'),
+         url('https://indizr.com/static/css/fonts/hattori_hanzo/webfont.svg#webfont') format('svg');
+ }
+   @font-face {
+     font-family: 'PT Serif';
+     src: url('https://indizr.com/static/css/fonts/pt_serif/webfont.eot') format('eot');
+     src: url('https://indizr.com/static/css/fonts/pt_serif/webfont.eot') format('eot'),
+        url('https://indizr.com/static/css/fonts/pt_serif/webfont.woff') format('woff'),
+         url('https://indizr.com/static/css/fonts/pt_serif/webfont.ttf') format('truetype'),
+         url('https://indizr.com/static/css/fonts/pt_serif/webfont.svg#webfont') format('svg');
+   }
+* {padding: 0; margin: 0; max-width: 100%;}
+  html {
+    font-family: 'PT Serif', 'Times New Roman', 'Times', serif;
+    font-size: 16px;
+    line-height: 1.45;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+    h1, h2, h3, h4, h5, h6 {font-family: 'Hattori Hanzo', 'PT Sans', 'Helvetica', 'Arial', sans-serif;}
+   body {
+      width: 95.5%;
+      padding: 0 2% 0 2%;
+      }
+    p, div, span, ul, ol, li {
+       max-width: 100%;
+       font-size: 1.1rem;
+       line-height: 1.45;
+  }
+    img {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+        }
+        
+    a {
+      color: #FF9100;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    p, ul, ol, h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 1.4rem;
+    }
+    li {margin-bottom: 0.65rem}
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Hattori Hanzo', sans-serif;
+      line-height: 1.3;
+    }
+    h1 {font-size: 3rem}
+    h2 {font-size: 2.7rem}
+    h3 {font-size: 2.4rem}
+    h4 {font-size: 2.1rem}
+    h5 {font-size: 1.8rem}
+    h6 {font-size: 1.5rem}
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
+    ul {list-style: square inside}
+    ol {list-style: decimal inside}
+    hr {
+      margin: 16px 2px;
+      display: block;
+      border: 0;
+      height: 1px;
+      background: #BFBFBF;
+      margin: 1.5rem 0;
+      clear: both;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<h1>A more secure way to read journalism's Gray Lady</h1>
+
+<img src="https://thenypost.files.wordpress.com/2014/11/earns_new_york_times-e1416973973216.jpg" alt="New York Times headquarters">
+
+<p>The New York Times just announced that it's launching a custom version of its site to run as an encrypted Tor Onion service. This is a major privacy win for readers -- and a nice development for the cause of more encryption on the internet in general.</p>
+
+<p>If you're not familiar with it, <a href="https://www.torproject.org/">Tor</a> is a web browser that is essentially a customized version of the more popular Firefox browser. The key difference is that Tor runs by default on top of an encrypted virtual private network that handles routing of all its web traffic and thus masks users' online activity more effectively. The routing piece of the software bundle was originally known as "the Onion Router," and thus the nomenclature of "Tor Onion" services.</p>
+
+<p>For publishers, getting a website to run as intended over Tor presents some unique technical challenges. Hence the need for the Times to create a custom Tor version.</p>
+
+<p>Runa Sandvik, the NYT's director of information security, announced the new project in a <a href="https://open.nytimes.com/https-open-nytimes-com-the-new-york-times-as-a-tor-onion-service-e0d0b67b7482">blog post</a> Friday. she wrote:</p>
+
+<em><blockquote>
+
+<p>The New York Times reports on stories all over the world, and our reporting is read by people around the world. Some readers choose to use Tor to access our journalism because they’re technically blocked from accessing our website; or because they worry about local network monitoring; or because they care about online privacy; or simply because that is the method that they prefer.</p>
+
+<p>The Times is dedicated to delivering quality, independent journalism, and our engineering team is committed to making sure that readers can access our journalism securely. This is why we are exploring ways to improve the experience of readers who use Tor to access our website...</p>
+
+<p>One way we can help is to set up nytimes.com as an Onion Service — making our website accessible via a special, secure and hard-to-block VPN-like “tunnel” through the Tor network. The address for our Onion Service is:</p>
+
+<p><a href="https://www.nytimes3xbfgragh.onion/">https://www.nytimes3xbfgragh.onion/</a></p>
+
+<p>This onion address is accessible only through the Tor network, using special software such as the Tor Browser. Such tools assure our readers that our website can be reached without monitors or blocks, and they provide additional guarantees that readers are connected securely to our website.</p>
+
+</blockquote></em>
+
+<p>News organizations' general neglect of infosec, including as it pertains to protecting readers' privacy as they <em>consume</em> the news, has long been a <a href="poynter.org/news/round-1-fbi-vs-apple-round-2-fbi-vs-journalists">pet peeve of mine</a>. (Hey, I'm an oddball that way.) So I was definitely elated to see this new offering from the Times.</p>
+
+<p>I used the new Tor version of the Times to read the paper on Sunday, both in my desktop Tor browser and on my Android phone. The stories and photos displayed well on both, especially the phone. Some features like sign-in and sharing weren't working so well yet, as Sandvik noted in her post. But the paper is working on those and iterating, so those should resolve soon.</p>
+
+<p>Maybe it's pie-in-the-sky, but I'd also love it if the Times were to put some editorial manpower into this at some point, so there's custom curation of the homepage for Tor. If they know, for instance, that repressive countries like China, North Korea, or Saudi Arabia are blocking the vanilla Times website, it would be great if the Tor homepage were topped by stories about exactly those countries. :wink:</p>
+
+<p>I also hope the Times's little experiment will (a) inspire similar projects among their media peers, and (b) give more everyday users a nice incentive to start using Tor. In my experience, it's frankly sometimes been difficult to explain to non-geek friends and family why they should be using it. But something like this might make the light bulb come on for more folks.</p>
+
+
+<br>
+
+<h3>Headlines & Links</h3>
+<p>Recent independence-related info from other sites around the web:</p>
+
+<ul>
+
+  <p></p><li><strong>The Verge</strong> just did some polling about consumers' attitudes toward the big tech companies. <a href="https://www.theverge.com/2017/10/27/16550640/verge-tech-survey-amazon-facebook-google-twitter-popularity">The results</a> are fascinating for a number of reasons, but the thumbnail takeaway here is that people are demonstrably getting waaaaaay more skeptical of Silicon Valley.</li>
+
+<p></p><li>Speaking of Big Tech shenanigans, <strong>Apple</strong> <a href="https://www.theverge.com/2017/10/28/16565110/apple-engineer-iphone-x-youtube-video?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter">fired</a> an engineer last week because his daughter posted a video of the announced-but-not-yet-publicly-released iPhone X. <a href="https://twitter.com/hashtag/assholes">#assholes</a></li>
+
+<p></p><li>The nonprofit project <strong>Let's Encrypt</strong> published <a href="https://letsencrypt.org/getinvolved/">a new page</a> listing ways people can get involved in their effort to provide free encryption certificates for websites.</li>
+
+ <p></p><li><strong>The New York Times</strong> has had some good news lately from the boardroom as well. In its third-quarter earnings report out this week, the paper showed a decent rise in profits despite a 20 percent sales decline in print ads. In other words, digital subscriptions and ads <a href="https://www.thestreet.com/story/14368565/1/new-york-times-good-quarter-shows-separation-from-newspaper-pack.html">more than made up</a> for the loss of dead-tree advertising -- a goal that has been elusive for most of the NYT's peers.</li>
+
+<p></p><li>ICYMI, a curious detail among the raft of headlines this week about online manipulation of American voters: <strong>The Daily Beast</strong> reports that former White House National Security Adviser <strong>Michael Flynn</strong> followed five Twitter accounts based out of a Russian-backed “troll factory” — and <a href="https://www.thedailybeast.com/michael-flynn-followed-russian-troll-accounts-pushed-their-messages-in-days-before-election">retweeted their messages</a> at least three times in the month before the 2016 election.</li>
+
+</ul>
+<p>That's it for now. Thanks for spending some time with Indizr this week. If you have ideas for links or stories we should cover, please do pass them along via either <a href="https://twitter.com/itsindizr">Twitter</a> or <a href="mailto:peter@indizr.com?subject=Idea%20Submission">email</a>.</p>
+<p><em>— Peter A. McKay</em></p>
+
+
+<center>
+                <br>
+                <br>
+                <br>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:white; border-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                            <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                                <tr>
+                                    <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                        This email was sent to <a href="mailto:*|EMAIL|*" target="_blank" style="color:#404040 !important;">*|EMAIL|*</a>
+                                        <br>
+                                        <a href="*|ABOUT_LIST|*" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>    <a href="*|UNSUB|*" style="color:#404040 !important;">unsubscribe from this list</a>    <a href="*|UPDATE_PROFILE|*" style="color:#404040 !important;">update subscription preferences</a>
+                                        <br>
+                                        *|LIST:ADDRESSLINE|*
+                                        <br>
+                                        <br>
+                                        *|REWARDS|*
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type="text/css">
+                    @media only screen and (max-width: 480px){
+                        table#canspamBar td{font-size:14px !important;}
+                        table#canspamBar td a{display:block !important; margin-top:10px !important;}
+                    }
+                </style>
+            </center>
+
+
+
+
+
+  </body>
+</html>
