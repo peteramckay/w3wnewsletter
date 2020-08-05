@@ -1,0 +1,130 @@
+<doctype html>
+<html lang="en">
+
+  <head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Web 3.0 Weekly</title>
+    <link rel="canonical" href="https://w3w.news">
+    <meta name="description" content="Web 3.0 Weekly">
+    <meta name="author" content="Peter A. McKay">
+    <meta name="keywords" content="blockchain, web3, decentralization, crypto, innovation, privacy">
+
+    <!-- Additional Meta Tags
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Schema.org markup -->
+    <meta itemprop="name" content="Web 3.0 Weekly">
+    <meta itemprop="description" content="A newsletter aboutall things decentralization, published every Sunday.">
+    <meta itemprop="image" content="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+    <!-- Twitter Card data
+    ––––––––––––––––––––––––––––––––––––––––––––––––––  -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://indizr.com">
+    <meta name="twitter:title" content="Web 3.0 Weekly">
+    <meta name="twitter:description" content="A newsletter about all things decentralization, published every Sunday.">
+    <meta name="twitter:creator" content="@itsindizr">
+    <meta name="twitter:image:src" content="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link href="https://w3w.news/img/icon/w3w-icon-125.png" rel="icon" type="image/x-icon" />
+
+
+    <link rel="stylesheet" href="https://indizr.com/css/skeleton-min.css">
+    <link rel="stylesheet" href="https://indizr.com/css/typography.css">
+    <link rel="stylesheet" href="https://indizr.com/css/newsletter.css">
+
+
+  </head>
+
+  <body>
+
+    <div id="palette">
+
+
+      <span id="flag">
+        <span><img src="https://indizr.com/img/w3w-logo-1000-white-orange.png" alt="Web 3.0 Weekly"></span>
+        <h4>July 26-Aug. 1, 2020</h4>
+      </span>
+
+
+      <br>
+
+      <p><strong>New technology had a better week than old</strong>. Along the way, I think we witnessed some new corollaries to venture capitalist <strong>Marc Andreessen</strong>'s famous maxim: <em>"Software is eating the world."</em></p>
+      <p>First, it's still an open question <em>which</em> software gets to eat the world, or at least who gets what portion. And users have a big say in that.</p>
+      <p>Second, don't expect the world to enjoy the process no matter who "wins" in tech. It is still being eaten, after all.</p>
+      <p>The latest headlines:</p>
+
+
+      <ul>
+
+        <li><strong>Ethereum marked the five-year anniversary of its launch.</strong> The world's number-two blockchain has grown to a market cap over $41 billion and remains the most popular platform for distributed applications, with a highly anticipated 2.0 update due soon. However, fresh concerns about high transaction fees and security have surfaced lately. Podcaster <strong>Laura Shin</strong> did a great job covering all these issues and more in a new interview with Ethereum founder <strong>Vitalik Buterin</strong> to mark the five-year milestone. It's definitely worth a listen at <a href="https://tinyurl.com/y2ul5sl5">https://tinyurl.com/y2ul5sl5</a>. Separately <strong>CoinDesk Research</strong> published a detailed but layman-friendly primer on ETH 2.0 at <a href="https://tinyurl.com/y4juclbf">https://tinyurl.com/y4juclbf</a>.</li>
+
+        <li><strong>Bitcoin rallied to new highs for 2020 throughout the week</strong>, though it has hit some turbulence in the last 24 hours as big holders known as "whales" seem to be taking profits. The token recently traded just above $11,000, helping to push the total capitalization of global crypto markets over $330 billion, according to data from <strong>CoinMarketCap</strong>. Among bulls, there is a growing consensus that BTC's fundamentals look strong for the foreseeable future versus fiat currencies, especially on the supply side: BTC has limited issuance governed through automation, while fiat is being printed furiously by central banks around the world as a form of economic stimulus. That said, journalist <strong>Billy Bambrough</strong> notes in Forbes that the BTC market is likely to remain subject to short-term gyrations like the one this weekend based purely on speculation among a concentrated set of participants. <em>Link: <a href="https://tinyurl.com/y5nkevul">https://tinyurl.com/y5nkevul</a></em></li>
+
+        <li><strong>U.S. lawmakers grilled the chief executives of Apple, Google, Amazon, and Facebook about antitrust.</strong> The hearing was generally more productive than previous tech hearings, with better informed questions from House members. The Atlantic's <strong>Franklin Foer</strong> hailed it as the beginning of a new era of oversight. (<em>Link: <a href="https://tinyurl.com/y5w6326q">https://tinyurl.com/y5w6326q</a></em>) However, specific legislation is unlikely to pass before the upcoming election. Personally, I'm also perplexed why lawmakers left the CEO of <strong>Microsoft</strong> (market cap: $1.5 trillion) off their witness list. <em>Link: <a href="https://tinyurl.com/y3qfbcve">https://tinyurl.com/y3qfbcve</a></em></li>
+
+        <li><strong>New data signaled that tech giants' considerable economic power is growing even greater.</strong> On the heels of the blockbuster antitrust hearing -- and data showing a record 32.9 percent contraction in the U.S. economy as a whole in the second quarter -- <strong>the Big Four tech companies reported strong earnings for the period that beat Wall Street expectations</strong>. The news underscored how the giants are prospering amid the coronavirus crisis as shopping and other activities move online. Tech stocks rallied as a result Friday, added billions more to the Big Four's market value. (CNBC) <em>Link: <a href="https://tinyurl.com/y2daluoc">https://tinyurl.com/y2daluoc</a></em></li>
+
+
+        <li><strong>Heath Tarbert</strong>, chairman of the <strong>Commodity Futures Trading Commission</strong>, said in an interview with CoinDesk's <strong>Nikhilesh De</strong> that "a large part" of the U.S. financial system could end up on blockchain over time. <em>Link: <a href="https://tinyurl.com/y35aca8w">https://tinyurl.com/y35aca8w</a></em></li>
+
+
+        <li><strong>Russia enacted restrictive new crypto regulations.</strong> The country's general stance is that the industry is "a criminal area," writes CoinTelegraph's <strong>Helen Partz</strong>. <em>Link: <a href="https://tinyurl.com/y3rpwrka">https://tinyurl.com/y3rpwrka</a></em></li>
+
+        <li><strong>An anonymous Reddit user using the handle "bangorlol" says he has reverse engineered TikTok, discovering worrisome data collection in the process.</strong> The claims will undoubtedly add to recent controversy around the popular social app, which President Trump is vowing to ban in the U.S. to prevent data from flowing to the Chinese government. The company denies that it shares user data. <em>Link: <a href="https://tinyurl.com/ybvvg9dh">https://tinyurl.com/ybvvg9dh</a></em></li>
+
+        <li>The browser maker <strong>Brave</strong> announced a new partnership with <strong>bitFlyer</strong> to enable token-based rewards for content creators and advertisers in Japan. <em>Link: <a href="https://tinyurl.com/yxmh7qdr">https://tinyurl.com/yxmh7qdr</a></em></li>
+
+        <li><strong>Craig DeWitt</strong>, Ripple's product director, unveiled a new browser extension he's built as a personal project that allows anyone to purchase physical goods online using <strong>Ripple</strong> tokens (XRP). The extension, dubbed <strong>Payburner</strong>, is a non-custodial XRP wallet compatible with <strong>Chrome</strong> and <strong>Brave</strong>. <em>Link: <a href="https://tinyurl.com/yy75hsqs">https://tinyurl.com/yy75hsqs</a></em></li>
+
+
+        <li>Developer <strong>Aram Zucker-Scharff</strong> unleashed a glorious tweetstorm about why mobile apps are inherently problematic and we should all use the open web instead. <em>Link: <a href="https://tinyurl.com/yyufmvfu">https://tinyurl.com/yyufmvfu</a></em></li>
+
+
+        <li><strong>NASA</strong> confirmed that two schoolgirls in India, <strong>Radhika Lakhani</strong> and <strong>Vaidehi Vekariya</strong>, just discovered a giant asteroid changing orbit toward earth. Thanks, ladies! (CNN) <em>Link: <a href="https://tinyurl.com/y6g5uuaf">https://tinyurl.com/y6g5uuaf</a></em></li>
+
+      </ul>
+
+      <p>That's it for now. Thanks for spending some time with the newsletter today! Best wishes for a healthy and productive week ahead. <!-- Web copy: If you'd like to get updates like this in your inbox every Sunday, you can sign up for our email list <a href="https://w3w.news">here</a>--></p>
+
+<p><em>— Peter A. McKay</em></p>
+
+<p><em>P.S: If you're just beginning to learn about decentralization, please check out <a href="https://github.com/Indizr/web3newbies/blob/master/web3newbies.md">"Web 3.0 for Newbies,"</a> my curated collection of links to help newcomers get up to speed.</em> 😉</p>
+
+<br>
+
+</div>
+
+</div> <!-- End palette -->
+
+
+
+
+
+<div id="footer">
+
+
+  <a href="https://indizr.com"><img src="https://indizr.com/img/logo/logo-250-white-flat.png" alt="Indizr Holdlings LLC"></a>
+
+
+  <span>
+
+    <a href="https://twitter.com/itsindizr"><img src="https://indizr.com/img/twitter-white.png" class="social"></a>
+
+    <a href="http://github.com/indizr"><img src="https://indizr.com/img/github-white.png" class="social"></a>
+  </span>
+
+  <p><em>Copyright 2020 (c), Indizr</em></p>
+
+</div> <!-- End footer -->
+
+
+</body>
+</html>
