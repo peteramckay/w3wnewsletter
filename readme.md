@@ -1,4 +1,4 @@
-<img src="https://indizr.com/img/w3w-logo-1000-white-orange.png" alt="#Web3 Weekly">
+<img src="https://w3w.news/img/logo/w3w-logo-500-orange-black.png" alt="#Web3 Weekly">
 
 This repository includes all HTML for the newsletter <strong>#Web3 Weekly</strong>, which covers all things decentralization.
 
