@@ -1,10 +1,10 @@
-# Web 3.0 Weekly
+<img src="https://indizr.com/img/w3w-logo-1000-white-orange.png" alt="#Web3 Weekly">
 
-This repository includes all HTML for the newsletter <strong>Web 3.0 Weekly</strong>, which covers all things decentralization.
+This repository includes all HTML for the newsletter <strong>#Web3 Weekly</strong>, which covers all things decentralization.
 
-The newsletter started as a personal project in 2017 and in its early iteration was sometimes published on an occasional basis, under slightly different titles. Since fall 2019, it has run continuously as <strong>Web 3.0 Weekly</strong>.
+The newsletter started as a personal project in 2017 and in its early iteration was sometimes published on an occasional basis, under slightly different titles. Since fall 2019, it has run continuously as <strong>#Web3 Weekly</strong>.
 
-The newsletter is published every Sunday. To subscribe, visit https://indizr.com/newsletter
+The newsletter is published every Sunday. To subscribe, visit https://w3w.news
 
 All content here is free to use and share with appropriate attribution under Creative Commons 4.0 license. For full text of the license, see https://creativecommons.org/licenses/by/4.0/legalcode
 
