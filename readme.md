@@ -2,7 +2,7 @@
 
 <br>
 
-This repository includes all HTML for the newsletter <strong>#Web3 Weekly</strong>, which covers all things decentralization.
+This repository includes all the copy for the newsletter <strong>#Web3 Weekly</strong>, which covers all things decentralization. Older issues are saved as HTML, and newer ones as markdown.
 
 The newsletter started as a personal project in 2017 and in its early iteration was sometimes published on an occasional basis, under slightly different titles. Since fall 2019, it has run continuously as <strong>#Web3 Weekly</strong>.
 
