@@ -1,0 +1,31 @@
+# #Web3Weekly: Dec. 11-17, 2022
+
+**Enough villains.** Let's take a break to talk about the crypto world's good guys for just a moment.
+
+The Giving Block, a fundraising platform for nonprofits, is [matching donations](https://thegivingblock.com/donate/) of tokens or stock made on its site through Dec. 31. If you're able to donate, please do [take a look](https://thegivingblock.com/donate/) as you finish up your holiday shopping. There are plenty of great orgs to choose from, and it might even help you get on Santa's "nice" list next year. 🎅
+
+That's a good note to end the year with, I think. Since next Sunday is Christmas, I won't be publishing this newsletter. I wish you all a very happy holiday and safe travels, if you're going to be on the road.
+
+We'll pick things up in the New Year, of course. In the meantime, here's one last batch of headlines for 2022:  
+
+- **FTX founder Sam Bankman-Fried** was arrested  and [charged with fraud](https://www.coindesk.com/consensus-magazine/2022/12/14/understanding-the-charges-brought-against-sam-bankman-fried/) in conection with the exchange's recent collapse. He's now in a Bahamian jail pending extradition to the U.S.
+
+- **The number of developers** working daily on blockchain projects has [fallen 57%](https://www.coindesk.com/markets/2022/12/15/first-mover-asia-active-crypto-developers-decreased-nearly-60-in-2022/) this year, according to CoinDesk. Ouch.
+
+- **New investment in Africa:** Visa announced it will [invest $1 billion in Africa](https://techcrunch.com/2022/12/14/visa-to-invest-1b-in-africa-over-the-next-five-years/) through 2027 to improve payment services there. Meanwhile, Jack Dorsey's payments company Block and venture firm Stillmark jointly led a [$2 million seed investment](https://www.cnbc.com/2022/12/06/jack-dorseys-block-backs-bitcoin-mining-firm-bringing-affordable-electricity-to-africa.html) in Gridless. The startup is using crypto mining rewards to incentivize renewable energy production in Africa.
+
+- **India's central bank** launched a [pilot program](https://www.msn.com/en-in/money/news/how-and-where-to-buy-digital-rupee/ar-AA15nrTV) in which four banks will offer customers a digital version of the rupee.
+
+- **South Africa's government** [increased reporting requirements](https://www.coindesk.com/policy/2022/11/30/south-africa-adds-crypto-businesses-to-list-of-accountable-institutions/) for companies that offer custodial crypto services.
+
+- **Bitcoiner Peter McCormack** just did a [fascinating podcast episode](https://www.youtube.com/watch?v=DnHOxZgvdWM) with Alex Gladstein, chief strategist for the Human Rights Foundation, about the downsides for poor countries that accept financing from the World Bank and International Monetary Fund. The subtext, of course, is that these are the sort of problems bitcoin is eventually supposed to solve as an alternative financing system.
+
+- **The Grist reports** that many Wall Street firms are quietly [backing off commitments](https://www.salon.com/2022/12/11/wall-streets-biggest-names-are-backing-off-their-climate-commitments_partner/) made at a United Nations conference last year to avoid investments and practices that contribute to climate change.
+
+- **Elon Musk has begun** blocking [journalists and Mastodon links](https://edition.cnn.com/2022/12/16/tech/mastodon-twitter-links/index.html) on Twitter. Wow, seems his whole "saving free speech" project isn't going too well...
+
+_**That’s it for now. Thanks for spending some time with the newsletter today! If you would like to receive updates like this in your inbox every Sunday, please join our email list [here](https://w3w.news).**_ <!-- Be sure to delete that last line for copy going out to existing email subscribers, of course. -->
+
+_**As ever, a brief disclaimer: This content is intended for journalistic purposes only, not as investment advice. For the latter, please [DYOR](https://www.google.com/search?q=DYOR&sxsrf=ALiCzsbQdCxZ0zVRVuYN5L2c-89lO7I5cw%3A1663013827193&source=hp&ei=w5MfY5f5BrylptQPrba9uAo&iflsig=AJiK0e8AAAAAYx-h08-1Cfk2JUZBncAoNuCZfyyt_eDY&ved=0ahUKEwjX5q-jiZD6AhW8kokEHS1bD6cQ4dUDCAk&uact=5&oq=DYOR&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAEIAEELEDMgsIABCABBCxAxCLAzIICAAQgAQQiwMyCAgAEIAEEIsDMggIABCABBCLAzIICAAQgAQQiwMyCggAEIAEEAoQiwMyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6CAguELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoLCAAQgAQQsQMQgwE6CAgAELEDEIMBOgsILhCABBCxAxCDAToECAAQA1AAWLEEYJkGaABwAHgBgAHaAYgB2wOSAQUyLjEuMZgBAKABAbgBAQ&sclient=gws-wiz) and consult appropriate financial pros to make the most suitable choices for your individual needs.**_
+
+_**Best wishes for a healthy and productive week ahead.**_  
