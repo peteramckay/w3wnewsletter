@@ -1,0 +1,5 @@
+- Junk in our news diets. <!-- Why we don't talk about this: All the same reasons we don't talk about junk food. -->
+- Over-reliance on TV. <!-- Why we don't talk about this: Careerism in the press. Too many people want to be on TV. -->
+- Education level. <!-- It sounds elitist. -->
+- Journalism's Thanos Problem. The effect of economic disruption on media. <!-- Reporters have a tendency to not make themselves the story. -->
+- Algos are a  form of editorial judgment. <!-- Non-geeks understand this poorly. Geeks are fully aware of it but wary of what might follow 230. -->
