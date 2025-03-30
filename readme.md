@@ -2,7 +2,6 @@
 
 <br>
 <br>
-<br>
 
 This repository includes all the copy for the newsletter <strong>#w3w</strong>, which covers Bitcoin, Ethereum, AI, and other emerging technologies. Older issues are saved as HTML, newer ones as markdown.
 
