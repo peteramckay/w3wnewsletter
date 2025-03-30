@@ -1,18 +1,21 @@
-<img src="https://w3w.news/img/logo/w3w-logo-500-orange-black.png" alt="#Web3 Weekly">
+<img src="https://w3w.news/img/logo/w3w-logo-orange.png" alt="#Web3 Weekly" width="60%">
 
 <br>
+<br>
+<br>
 
-This repository includes all the copy for the newsletter <strong>#Web3 Weekly</strong>, which covers all things decentralization. Older issues are saved as HTML, and newer ones as markdown.
+This repository includes all the copy for the newsletter <strong>#w3w</strong>, which covers Bitcoin, Ethereum, AI, and other emerging technologies. Older issues are saved as HTML, newer ones as markdown.
 
-The newsletter started as a personal project in 2017 and in its early iteration was sometimes published on an occasional basis, under slightly different titles. Since fall 2019, it has run continuously as <strong>#Web3 Weekly</strong>.
+I started the newsletter as a personal project in 2017. In its early iterations, it was sometimes published on an occasional basis, under a few different titles.
 
-The newsletter is published every Sunday. To subscribe, visit https://w3w.news
+That said, #w3w has had one thematic throughline that's been consistent from the beginning: a focus on how we can use new tools to build a web that truly works for everyone.
+
+The newsletter is published every Sunday. To subscribe, visit https://w3wnews.substack.com
 
 All content here is free to use and share with appropriate attribution under Creative Commons 4.0 license. For full text of the license, see https://creativecommons.org/licenses/by/4.0/legalcode
 
 Cheers,         
 
 Peter A. McKay      
-peter[at]indizr[dot]com     
-<a href="https://twitter.com/peteramckay">@peteramckay</a>        
-<a href="https://twitter.com/Web3Weekly">@Web3Weekly</a>        
+📬 peter[at]pmckay[dot]com     
+🦋 <a href="https://bsky.app/profile/peteramckay.bsky.social">@peteramckay.bsky.social</a>
